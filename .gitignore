@@ -1,0 +1,10 @@
+# Remove os arquivos de debug
+/*/bin/
+/*/obj/
+/*/logs/
+/*/out/
+
+#Remove a pasta do vscode
+.vscode/
+.vs/
+.idea/

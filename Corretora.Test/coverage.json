@@ -1,0 +1,165 @@
+{
+  "Corretora.Domain.dll": {
+    "/home/marcuscosta/workspace/tdd/Corretora/Corretora.Domain/Entities/ContaCorrente.cs": {
+      "Corretora.Domain.Entities.ContaCorrente": {
+        "System.Int32 Corretora.Domain.Entities.ContaCorrente::get_Agencia()": {
+          "Lines": {
+            "19": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 Corretora.Domain.Entities.ContaCorrente::get_NumeroConta()": {
+          "Lines": {
+            "21": 19
+          },
+          "Branches": []
+        },
+        "System.Guid Corretora.Domain.Entities.ContaCorrente::get_CodigoPessoa()": {
+          "Lines": {
+            "23": 15
+          },
+          "Branches": []
+        },
+        "System.Double Corretora.Domain.Entities.ContaCorrente::get_Saldo()": {
+          "Lines": {
+            "25": 25
+          },
+          "Branches": []
+        },
+        "System.Double Corretora.Domain.Entities.ContaCorrente::get_Credito()": {
+          "Lines": {
+            "27": 25
+          },
+          "Branches": []
+        },
+        "System.Double Corretora.Domain.Entities.ContaCorrente::CalculoCredito(System.Double)": {
+          "Lines": {
+            "30": 3,
+            "31": 3,
+            "32": 1,
+            "33": 1,
+            "36": 2,
+            "37": 3
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 15,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "Corretora.Domain.Entities.Extrato Corretora.Domain.Entities.ContaCorrente::Deposito(System.Double)": {
+          "Lines": {
+            "40": 3,
+            "41": 3,
+            "42": 3,
+            "44": 3,
+            "45": 3
+          },
+          "Branches": []
+        },
+        "Corretora.Domain.Entities.Extrato Corretora.Domain.Entities.ContaCorrente::Extrato()": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Void Corretora.Domain.Entities.ContaCorrente::.ctor(System.Int32,System.Int32,System.Guid)": {
+          "Lines": {
+            "7": 17,
+            "8": 17,
+            "9": 17,
+            "10": 2,
+            "12": 15,
+            "13": 15,
+            "14": 15,
+            "15": 15,
+            "16": 15,
+            "17": 15
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 16
+            },
+            {
+              "Line": 9,
+              "Offset": 10,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 9,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 9,
+              "Offset": 24,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 15
+            }
+          ]
+        }
+      }
+    },
+    "/home/marcuscosta/workspace/tdd/Corretora/Corretora.Domain/Entities/Extrato.cs": {
+      "Corretora.Domain.Entities.Extrato": {
+        "System.Int32 Corretora.Domain.Entities.Extrato::get_NumeroConta()": {
+          "Lines": {
+            "5": 3
+          },
+          "Branches": []
+        },
+        "System.Double Corretora.Domain.Entities.Extrato::get_Saldo()": {
+          "Lines": {
+            "6": 6
+          },
+          "Branches": []
+        },
+        "System.Double Corretora.Domain.Entities.Extrato::get_Credito()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        },
+        "System.Void Corretora.Domain.Entities.Extrato::.ctor(System.Int32,System.Double,System.Double)": {
+          "Lines": {
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
